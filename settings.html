@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="css/leon.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>settings Panel</title>
+</head>
+<body>
+     <!-- start page -->
+     <div class="page">
+        <!--start sidebar-->
+      <div class="sidebar">
+        <h3>SBEEAD</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-brands fa-codepen"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="aktive" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--end siadebar-->
+
+      <!--start contenet-->
+      <div class="contenet">
+        <div class="head">
+          <div class="serach">
+            <input type="serach" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons">
+            <span class="nofacition">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="image/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- end content -->
+
+        <!-- start setting -->
+        <h1>Settings</h1>
+        <div class="have-1">
+            <div class="setting">
+                <div class="text-1">
+                    <h2>Site Control</h2>
+                    <p>Control The Website If There Is Maintenance</p>
+                </div>
+                <div class="r-1">
+                    <div class="text-2">
+                        <span>Website Control</span>
+                        <p>Open/Close Website And Type The Reason</p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+                <textarea class="textarea" name="" placeholder="Text Message Content"></textarea>
+            </div>
+            <!-- end setting -->
+
+        <!---->
+        
+        <div class="genera-l">
+            <h2>General Info</h2>
+            <p>General Information About Your Account</p>
+            <div class="input-f">
+                <label for="first">First Name</label>
+                <input
+                  type="text"
+                  id="first"
+                  placeholder="First Name"
+                />
+            </div>
+            <div class="input-l">
+                <label for="last">Last Name</label>
+                <input
+                  type="text"
+                  id="last"
+                  placeholder="Last Name"
+                />
+            </div>
+            <div class="input-e">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Email"
+                  disabled
+                />
+                <a href="#">Change</a>
+            </div>
+        </div>
+        <!-- end genera-l -->
+        
+        <!-- start security-->
+        <div class="security">
+            <h2>Security Info</h2>
+            <p>Security Information About Your Account</p>
+            <div class="info">
+                <div class="text">
+                    <span>Password</span>
+                    <p>Last Change On 25/10/2021</p>
+                </div>
+                <div class="form-check-0 form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
+            </div>
+            <div class="info">
+                <div class="text">
+                    <span>Two-Factor Authentication</span>
+                    <p>Enable/Disable The Feature</p>
+                </div>
+                <a href="#">change</a>
+            </div>
+            <div class="info">
+                <div class="text">
+                    <span>Devices</span>
+                    <p>Check The Login Devices List</p>
+                </div>
+                <div class="form-check-1 form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                </div>
+            </div>
+        </div>
+        <!-- end security -->
+
+        <!-- start social-info -->
+        <div class="social-info">
+            <h2>Social Info</h2>
+            <p>Social Media Information</p>
+            <div class="box">
+                <div class="nb">
+                    <i class="fs-10 fa-brands fa-twitter"></i>
+                </div>
+                <input type="text" placeholder="Twitter Username" />
+            </div>
+            <div class="box">
+                <div class="nb">
+                    <i class="fs-10 fa-brands fa-facebook-f"></i>
+                </div>
+                <input type="text" placeholder="Facebook Username" />
+            </div>
+            <div class="box">
+                <div class="nb">
+                    <i class="fs-10 fa-brands fa-linkedin"></i>
+                </div>
+                <input type="text" placeholder="Linkedin Username" />
+            </div>
+            <div class="box">
+                <div class="nb">
+                    <i class="fs-10 fa-brands fa-youtube"></i>
+                </div>
+                <input type="text" placeholder="Youtube Username" />   
+            </div>
+        </div>
+        <!-- end social-info -->
+
+        <!-- start widgets-->
+            <div class="widgets">
+                <h2>Widgets Control</h2>
+                <p>Show/Hide Widgets</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Quick Draft
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Yearly Targets
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Tickets Statistics
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Latest News
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Latest Tasks
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Top Search Items
+                        </label>
+                      </div>
+            </div>
+        <!-- end widgets-->
+
+            <!-- start backup -->
+            <div class="backup">
+                <h2>Backup Manager</h2>
+                <p>Control Backup Time And Location</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Default checked radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Default radio
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Default checked radio
+                    </label>
+                  </div>
+                  <div class="them">
+                    <div class="carding">
+                        <i class="th-0 fa-solid fa-server"></i>
+                        <p>Megaman</p>
+                    </div>
+                    <div class="carding aktive">
+                        <i class="th-0 fa-solid fa-server"></i>
+                        <p>Zero</p>
+                    </div>
+                    <div class="carding">
+                        <i class="th-0 fa-solid fa-server"></i>
+                        <p>Sigma</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- end backup -->
+
+      <!-- end page -->
+     </div>
+   </div>
+</div>
+</body>
+</html>

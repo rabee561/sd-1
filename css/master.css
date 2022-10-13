@@ -1,0 +1,47 @@
+/* flex / aling-itmes / justify-content */
+.d-flex{
+    display: flex;
+}
+.aling-itmes{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+
+/* padding / margin*/
+.p-10{
+    padding: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.ms-10{
+    margin-left: 10px;
+}
+
+/* border-radius */
+.rad{
+    border-radius: 50%;
+}
+
+/* font size */
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+
+/* color */
+.c-black{
+    color: black;
+}
+.c-white{
+    color: white;
+}
+
+/* position */
+.p-relative{
+    position: relative;
+}
